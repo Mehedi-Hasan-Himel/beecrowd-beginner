@@ -38,7 +38,7 @@ int main()
 {
     char Seller_Name[100];
     double Salary, Total_Sale;
-    scanf("%s", &Seller_Name);
+    scanf("%s", Seller_Name);
     scanf("%lf %lf", &Salary, &Total_Sale);
 
     double Bonus = Total_Sale * 0.15;
